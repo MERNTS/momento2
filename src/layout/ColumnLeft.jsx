@@ -1,19 +1,19 @@
-// SideMenuBar.jsx
+// ColumnLeft.jsx
 
 import Box from '@mui/system/Box';
-import SideMenuItem from './_SideMenuItem.jsx';
+import SideMenuItem from '../menu/_SideMenuItem.jsx';
 import Divider from '@mui/material/Divider';
-import SideMenuGroup from './_SideMenuGroup';
-import { useSideMenuData, useSideMenuState } from './_SMenuHooks';
+import SideMenuGroup from '../menu/_SideMenuGroup.jsx';
+import { useSideMenuData, useSideMenuState } from '../menu/_SMenuHooks.jsx';
 import { List } from '@mui/material';
-import SideMenuHeader from "./_LeftHeader.jsx";
+import SideMenuHeader from "../menu/_LeftHeader.jsx";
 
 /**
  * 菜单的主体组件
  *
  * @returns
  */
-function SideMenuBar({
+function ColumnLeft({
                       title,
                       logo,
                       hClick,
@@ -89,4 +89,4 @@ function SideMenuBar({
     );
 }
 
-export default SideMenuBar;
+export default ColumnLeft;

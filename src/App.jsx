@@ -1,11 +1,11 @@
-import LeftMenu from "./menu/LeftMenu.jsx";
+import MMLayout from "./layout/MMLayout.jsx";
 import SideMenuProvider from "./menu/SideMenuProvider";
 import sideMenuConfigData from "./menu/LeftMenuData.jsx";
 
 function App() {
     return (
         <SideMenuProvider menuData={sideMenuConfigData}>
-            <LeftMenu />
+            <MMLayout />
         </SideMenuProvider>
     )
 }

@@ -1,12 +1,12 @@
-// layout/FullPage.jsx
+// layout/MMPageTemplate.jsx
 
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 
-function FullPage({ sideMenu, pageHeader , children }) {
+function MMPageTemplate({ sideMenu, pageHeader , children, rightColumn }) {
     return (
         <Paper className='d-flex overflow-hidden position-absolute w-100 h-100 p-0 m-0'>
-            <Box className='h-100'>
+            <Box className='h-100' sx={{ height: 68 }}>
                 {
                     sideMenu
                 }
@@ -28,7 +28,7 @@ function FullPage({ sideMenu, pageHeader , children }) {
 
             <Box className='h-100'>
                 {
-                    sideMenu
+                    rightColumn
                 }
             </Box>
 
@@ -36,4 +36,4 @@ function FullPage({ sideMenu, pageHeader , children }) {
     )
 }
 
-export default FullPage;
+export default MMPageTemplate;
