@@ -1,4 +1,4 @@
-// SideMenu_Del.jsx
+// SideMenuBar.jsx
 
 import Box from '@mui/system/Box';
 import SideMenuItem from './_SideMenuItem.jsx';
@@ -6,14 +6,14 @@ import Divider from '@mui/material/Divider';
 import SideMenuGroup from './_SideMenuGroup';
 import { useSideMenuData, useSideMenuState } from './_SMenuHooks';
 import { List } from '@mui/material';
-import SideMenuHeader from "./_SideMenuHeader";
+import SideMenuHeader from "./_LeftHeader.jsx";
 
 /**
  * 菜单的主体组件
  *
  * @returns
  */
-function SideMenu_Del({
+function SideMenuBar({
                       title,
                       logo,
                       hClick,
@@ -89,4 +89,4 @@ function SideMenu_Del({
     );
 }
 
-export default SideMenu_Del;
+export default SideMenuBar;

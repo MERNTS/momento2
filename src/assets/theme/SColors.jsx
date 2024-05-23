@@ -1,6 +1,6 @@
 // sColors.jsx
 
-import { sColor } from "./SThemeUtils";
+import { sColor } from "./SThemeUtils.jsx";
 
 /**
  * 定义主题颜色模型

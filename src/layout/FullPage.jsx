@@ -1,4 +1,4 @@
-// SLayout/FullPage.jsx
+// layout/FullPage.jsx
 
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';

@@ -24,7 +24,7 @@ const SideMenuHeader = ({
     return (
         <Box className="p-3 border-bottom" >
             <Stack
-                spacing={2}
+                spacing={3}
                 direction={"row"}
                 justifyContent="start"
                 alignItems={"center"}
@@ -32,8 +32,8 @@ const SideMenuHeader = ({
             >
                 <Avatar
                     sx={{
-                        width: 35,
-                        height: 35,
+                        width: 40,
+                        height: 40,
                         cursor: "pointer",
                         transition: '0.2s',
                         transform: open ? 'scale(1)' : 'scale(1.2)',

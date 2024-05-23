@@ -1,4 +1,4 @@
-// STheme/ToggleThemeButton.jsx
+// theme/ToggleThemeButton.jsx
 
 import IconButton from '@mui/material/IconButton';
 import { useTheme } from '@mui/material/styles';

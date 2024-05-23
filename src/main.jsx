@@ -7,7 +7,7 @@
 // npm install react-transition-group --save
 // npm i bootstrap@5.3.2
 // eslint-disable-next-line no-unused-vars
-import SThemeProvider from '@/STheme/SThemeProvider.jsx';   // mandatory here.
+import SThemeProvider from '@/assets/theme/SThemeProvider.jsx';   // mandatory here.
 
 import App from './App.jsx'
 import ReactDOM from 'react-dom/client'

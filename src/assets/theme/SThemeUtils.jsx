@@ -1,6 +1,6 @@
 // SThemeUtils.jsx
 
-import SThemeCodors from "./SColors";
+import SThemeCodors from "./SColors.jsx";
 
 // 生成基本颜色，lightColor为浅色，darkColor为深色
 export function sColor(lightColor, darkColor) {

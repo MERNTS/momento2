@@ -1,22 +1,22 @@
-// SideMenuLeft.jsx
+// LeftMenu.jsx
 import VerticalSplitIcon from '@mui/icons-material/VerticalSplit';
 import Box from '@mui/material/Box';
-import SideMenu_Del from "./SideMenu_Del.jsx";
+import SideMenuBar from "./SideMenuBar.jsx";
 import SToggleButton from './_SToggleButton.jsx';
 import { useSideMenuBadgeUpdate } from './_SMenuHooks.jsx';
-import FullPage from '../SLayout/FullPage.jsx';
+import FullPage from '../layout/FullPage.jsx';
 import Stack from '@mui/material/Stack';
-import ToggleThemeButton from '../STheme/ToggleThemeButton.jsx';
+import ToggleThemeButton from '../assets/theme/ToggleThemeButton.jsx';
 import ChatBox from '@/components/ChatBox.jsx'; // Import the ChatBox component
 
-function SideMenuLeft() {
+function LeftMenu() {
     const updateBadge = useSideMenuBadgeUpdate();
     const onClickHandler = (id, title, idPath, titlePath) => {
         console.log(id, title, idPath, titlePath);        updateBadge(id, 0);    }
 
     return (
         <FullPage
-            sideMenu={<SideMenu_Del
+            sideMenu={<SideMenuBar
                 title="Momento"
                 logo="./src/assets/momento.png"
                 hClick={() => { console.log("headerOnClick") }}
@@ -45,4 +45,4 @@ function SideMenuLeft() {
     )
 }
 
-export default SideMenuLeft;
+export default LeftMenu;
